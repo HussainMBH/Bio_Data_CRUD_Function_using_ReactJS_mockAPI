@@ -23,7 +23,7 @@ const Create = () => {
    <Form className='form'>
     <Form.Field>
         <label>First Name</label>
-        <input placeholder='Enter Your First Name' value={firstName}
+        <input placeholder='Enter First Name' value={firstName}
         onChange={event => setFirstName(event.target.value)}></input>
     </Form.Field><br/>
     <Form.Field>

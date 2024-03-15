@@ -33,7 +33,7 @@ const Create = () => {
     </Form.Field>
     <br/>
     <Form.Field>
-        <Checkbox label='Agree the terms & conditions' checked={checked} 
+        <Checkbox label='A' checked={checked} 
         onChange={() => setChecked(!checked)}/>
     </Form.Field>
     <Button onClick={postData}>Submit</Button>
